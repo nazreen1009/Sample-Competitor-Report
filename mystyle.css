@@ -1,0 +1,64 @@
+body{
+	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+}
+.wrapper{
+	width: 50%; 
+	height:70px; 
+	margin: 0 auto;
+	background-color:#F5F1AC;
+    filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#F5F1AC, endColorstr=#ABE2B4);
+    background-image:-moz-linear-gradient(top, #F5F1AC 50%, #ABE2B4 100%);
+    background-image:-webkit-linear-gradient(top, #F5F1AC 50%, #ABE2B4 100%);
+    background-image:-ms-linear-gradient(top, #F5F1AC 50%, #ABE2B4 100%);
+    background-image:linear-gradient(top, #F5F1AC 50%, #ABE2B4 100%);
+    background-image:-o-linear-gradient(top, #F5F1AC 50%, #ABE2B4 100%);
+    background-image:-webkit-gradient(linear, right top, right bottom, color-stop(50%,#F5F1AC), color-stop(100%,#ABE2B4));	border-radius: 30px 30px 30px 30px;
+	margin-top: 20px;
+}
+.header-style{
+	color:#668D72;
+	font-size:30px;
+	left:20px;
+	font-weight: bold;
+	font-family: Papyrus, fantasy;
+	padding-left:20px;
+	padding-top:15px;
+}
+.table-style{
+    padding: 20px;
+    border-spacing: 10px; 
+    text-align: center; 
+    border-left:1px solid black;
+    border-right:1px solid black;
+}
+th{
+	background-color:#ABE2B4;
+    padding: 20px;
+    border-radius: 30px 30px 30px 30px;
+    color:white;font-weight: bold;
+}
+#placeholder{
+	color:#4D4E37;
+	width:40%;
+	border-radius: 5px 5px 5px 5px;
+	margin:0 auto;
+    background-color:#EBE7E7;
+    filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#EBE7E7, endColorstr=white);
+    background-image:-moz-linear-gradient(top, #EBE7E7 50%, white 100%);
+    background-image:-webkit-linear-gradient(top, #EBE7E7 50%, white 100%);
+    background-image:-ms-linear-gradient(top, #EBE7E7 50%, white 100%);
+    background-image:linear-gradient(top, #EBE7E7 50%, white 100%);
+    background-image:-o-linear-gradient(top, #EBE7E7 50%, white 100%);
+    background-image:-webkit-gradient(linear, right top, right bottom, color-stop(50%,#EBE7E7), color-stop(100%,white));
+	}
+table.table-style tbody td.cell-data-style{
+	border-radius: 5px 20px 5px 20px;
+	background-color: #EBE7E7; 
+	padding: 20px; 
+	color:#668D72;
+}
+table.table-style tbody td.cell-title-style{
+	padding:20px;
+	background-color: #F5F1AC; 
+	border-radius: 30px 30px 30px 30px;
+}

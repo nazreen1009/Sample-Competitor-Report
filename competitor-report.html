@@ -1,0 +1,41 @@
+<html>
+ <head>
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+ <title>
+ Competitor report
+ </title>
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+ <script type="text/javascript" src="http://knockoutjs.com/downloads/knockout-2.0.0.js"> </script>
+</head>
+<body>
+<div class="wrapper">
+<h1 class="header-style"> Competitor Report </h1>
+</div>
+   <table class="table-style" align ="center">
+    <tr>
+        <th>Title</th>
+        <th>Shopfronts</th>
+        <th>Website Speed</th>
+        <th>Name</th>
+        <th>Mobile Friendly</th>
+        <th>Findability</th>
+        <th>Social Engagement</th>
+    </tr>
+    <tbody data-bind="foreach: competitorData">
+        <tr>
+            <td class="cell-title-style" data-bind="text: title"></td>  <!-- Display the current row -->
+            <td class="cell-data-style" data-bind="text: shopfronts"></td>
+            <td class="cell-data-style" data-bind="text: websitespeed"></td>
+            <td class="cell-data-style" data-bind="text: name"></td>
+            <td class="cell-data-style" data-bind="text: mobilefriendly"></td>
+            <td class="cell-data-style" data-bind="text: findability"></td>
+            <td class="cell-data-style" data-bind="text: socialengagement"></td>
+        </tr>
+    </tbody>
+</table>
+<div id="placeholder">
+</div>
+<script type="text/javascript" src="tableconversion.js"> </script>
+
+</body>
+</html>
